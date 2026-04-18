@@ -1,0 +1,36 @@
+html, body{
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+.heading{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+}
+
+main{
+    background-color: aliceblue;
+    margin: 0%;
+    padding: 50px;
+}
+
+.first-main, .second-main{
+    padding-left: 470px;
+    line-height: 33px;
+}
+
+.first-main a{
+    color: rgb(52, 135, 251);
+    text-decoration: none;
+}
+
+.first-main ol{
+    margin: 20px;
+    padding: 0px;
+    /* list-style: none; */
+}
+
+
