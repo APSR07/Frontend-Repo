@@ -1,0 +1,46 @@
+body{
+    overflow: hidden;
+    background-color: beige;
+}
+
+.heading{
+    background-color: rgb(96, 96, 234);
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-top: -10px;
+    
+    top: 0;
+    width: 100%;
+}
+
+.objective{
+    background-color: aliceblue;
+    padding: 10px;
+    border: 2px solid transparent;
+    margin-top: 5px;
+    
+}
+
+.objective img{
+    border-radius: 5%;
+}
+
+.achievements{
+    background-color: aliceblue;
+    padding: 10px;
+    border: 2px solid transparent;
+    margin-top: 10px;
+}
+
+.footerr{
+    background-color: rgb(96, 96, 234);
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -10px;
+}
