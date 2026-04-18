@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="12_style.css">
+</head>
+<body>
+    <form action="/server">
+        <caption><h1>Survey Form</h1></caption>
+        <label for="username">Name:</label><br>
+        <input type="text" name="name" id="username"> <br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="useremail" id="email"><br>
+        <label for="age">Age:</label><br>
+        <input type="number" name="user_age" id="age"><br>
+        <label for="profession">Which option best describe you?</label><br>
+        <select name="user_profession" id="profession">
+            <option value="Student">Student</option>
+            <option value="Working employee">Working employee</option>
+            <option value="farmer">Farmer</option>
+            <option value="government_employee">Government Employee</option>
+            <option value="army">Army</option>
+        </select> <br>
+        <label for="referral">Would you recommend our organization to a friend?</label><br>
+        <input type="radio" name="referral" id="referral">Yes <br>
+        <input type="radio" name="referral" id="referral">No <br>
+        <input type="radio" name="referral" id="referral">Maybe <br>
+        <label for="skills">Language and framework known (check all that apply)</label><br>
+        <input type="checkbox" name="skills" id="skills">C
+        <input type="checkbox" name="skills" id="skills">C++<br>
+        <input type="checkbox" name="skills" id="skills">Java
+        <input type="checkbox" name="skills" id="skills">C#<br>
+        <input type="checkbox" name="skills" id="skills">Python
+        <input type="checkbox" name="skills" id="skills">Javascript<br>
+        <input type="checkbox" name="skills" id="skills">React
+        <input type="checkbox" name="skills" id="skills">Angular<br>
+        <input type="checkbox" name="skills" id="skills">Django
+        <input type="checkbox" name="skills" id="skills">Spring<br>
+        <label for="suggestion">Any comments or suggestion</label><br>
+        <textarea name="suggestion" id="suggestion" placeholder="Enter your comment here" rows="3" cols="50"></textarea><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
