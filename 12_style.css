@@ -1,0 +1,21 @@
+body{
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+}
+
+input, textarea, button, select{
+    margin-bottom: 10px;
+}
+
+button{
+    width: 100%;
+    background-color: aquamarine;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
