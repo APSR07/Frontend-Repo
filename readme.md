@@ -15,6 +15,8 @@ It simply renders.
 - [11_style.css](#css-layer-zone)
 - [12_survey_form.html](#output-fragment-zone)
 - [12_style.css](#css-layer-zone)
+- [FAQ Page](#output-fragment-zone)
+- [FAQ Page Style sheet](#css-layer-zone)
 ---
 
 ---
@@ -32,6 +34,7 @@ Everything here is the final surface.
 
 ![Tribute Page](11_tributePage_Output.png)
 ![Survey Form](12_surveyForm_output.png)
+![FAQ Page](FaqPage Output.png)
 
 ---
 
